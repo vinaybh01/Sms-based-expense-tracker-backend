@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // MongoDB connection
 mongoose
   .connect(
-    "mongodb+srv://user_1:user123@cluster0.cidqadh.mongodb.net/expenseT?retryWrites=true&w=majority",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
