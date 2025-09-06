@@ -6,13 +6,13 @@ const app = express();
 app.use(express.json());
 
 // Replace with your Bot Token
-const token = "8024805449:AAFaPylVzWFOROx18LOfUHvELnHtCK6Y2GQ";
+const token = "";
 const bot = new TelegramBot(token, { polling: true });
 
 // MongoDB connection
 mongoose
   .connect(
-    "mongodb+srv://user_1:user123@cluster0.cidqadh.mongodb.net/expenseT",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
